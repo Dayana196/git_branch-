@@ -1,0 +1,17 @@
+
+#directorio de configuracion 
+.vscode
+#has ignorado un archivo especifico
+texto_ignorado.txt
+
+#se ignora una carpeta
+Archivos_ignorados/* 
+
+#se ignora archivos dentro de una carpeta 
+*_carpeta/*.json 
+
+#se ignora carpetas asignadas o rutas 
+*_padre/**/*.txt 
+
+#a todos 
+#*_padre/**/* 
